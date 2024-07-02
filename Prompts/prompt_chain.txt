@@ -1,0 +1,5 @@
+In this task you will be given a definition of an alteration and an input sentence in '''. Your task is to apply the alteration to the given sentence, while preserving the original meaning of the sentence. That means, the new sentence should be a paraphrase of the old sentence. Think step by step and describe the reason for what part of the sentence you are changing before you do.
+
+
+Alteration: {definition}
+Input: '''{sentence}'''

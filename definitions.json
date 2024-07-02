@@ -1,0 +1,12 @@
+{
+  "AdditionDeletion": "Addition/Deletion: Addition/Deletion consists of all additions/deletions of lexical and functional units.",
+  "Same Polarity Substitution (contextual)": "Same Polarity Substitution: Same Polarity Substitution consists of changing one lexical (or functional) unit for another with approximately the same meaning. Among the linguistic mechanisms of this type, we find synonymy, general/specific substitutions, or exact/approximate alternations.",
+  "Syntheticanalytic substitution": "Syntheticanalytic substitution: Synthetic/analytic substitution consists of changing synthetic structures for analytic structures, and vice versa. This type comprises mechanisms such as compounding/ decomposition, light element, or lexically emptied specifier additions/deletions, or alternations affecting genitives and possessives.",
+  "Change of order": "Change of order: Change of order includes any type of change of order from the word level to the sentence level.",
+  "Punctuation changes": "Punctuation change: Punctuation and format changes consist of any change in the punctuation or format of a sentence (not of a lexical unit, cf. lexicon-based changes).",
+  "Inflectional Changes": "Inflectional Change: Inflectional changes consist of changing inflectional affixes of words",
+  "Spelling changes": "Spelling change: Spelling and format changes comprise changes in the spelling and format of lexical (or functional) units, such as case changes, abbreviations, or digit/letter alternations.",
+  "Subordination and nesting changes": "Subordination and nesting change: Subordination and nesting changes consist of changes in which one of the members of the pair contains a subordination or nested element, which is not present, or changes its position and/or form within the other member of the pair.",
+  "Semantic based": "Semantic based: Semantics-based changes are those that involve a different lexicalization of the same content units. These changes affect more than one lexical unit and a clear-cut division of these units in the mapping between the two members of the paraphrase pair is not possible.",
+  "Derivational Changes": "Derivational Changes: Derivational Changes consist of changes of category with or without using derivational affixes. These changes imply a syntactic change in the sentence in which they occur."
+}
