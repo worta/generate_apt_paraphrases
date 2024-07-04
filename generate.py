@@ -6,7 +6,8 @@ from gradio_client import Client
 
 base ='folder_dir' # Change this to folder containing folders with prompt and example folder
 openai.api_key = "key" #and this to a valid openai
-
+experiments = ["NoShotGeneral","FewShotGeneral","OneShotGeneral", "NoShotCoT", "OneShotCoT", "FineTuned"]
+experiments_to_do = [0]
 
 # Query a model fine-tuned for APT generation. Please contact the authors of https://aclanthology.org/2023.emnlp-main.746/ for access.
 def query_fine_tuned(sentence:str, type:str):
@@ -83,7 +84,6 @@ with open("definitions.json","r") as f:
 exampleFormat = 'Sentence: {Original} \n Output: {Changed}'
 
 
-experiments = ["NoShotGeneral","FewShotGeneral","OneShotGeneral", "NoShotCoT", "OneShotCoT", "FineTuned"]
 
 
 prompt_files = {
@@ -94,7 +94,7 @@ prompt_files = {
     experiments[4]:"prompt_chain_single.txt"
 }
 
-experiments_to_do = [5]
+
 
 for ex in experiments_to_do:
     experiment = experiments[ex]
