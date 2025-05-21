@@ -1,5 +1,5 @@
 # Repository
-This repository implements the paper "Towards Human Understanding of Paraphrase Types in ChatGPT" (https://arxiv.org/abs/2407.02302).
+This repository implements the paper "Towards Human Understanding of Paraphrase Types in Large Language Models" ([https://arxiv.org/abs/2407.02302](https://aclanthology.org/2025.coling-main.421/)).
 
 # Data
 The annotated data can be found at [https://github.com/worta/apty/](https://github.com/worta/apty/). It is also available at https://huggingface.co/datasets/worta/apty. The annotation, among others, contains information on whether the application of an atomic paraphrase type was successful,
